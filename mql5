@@ -1,0 +1,103 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                    Price Ray.mq5 |
+//|                       https://www.forexroboteasy.com               |
+//|                                   Developed by Forex Robot Easy Team |
+//|                                                                      |
+//|                     Terms of Reference for Price Ray Forex Software |
+//|                                                                      |
+//| Task: Develop code for the Price Ray Forex software to provide       |
+//|       real-time price information and enhance trading strategies in  |
+//|       the Forex market.                                              |
+//|                                                                      |
+//| Code Requirements:                                                   |
+//| 1. Customizability:                                                  |
+//|    - Allow traders to select the text to be displayed above or below  |
+//|      the price ray.                                                  |
+//|    - Include options such as Bid, Ask, or Last Price for the          |
+//|      displayed text.                                                 |
+//|    - Provide the current spread information.                         |
+//|    - Display the range and body size for a defined time-frame candle  |
+//|      in pips/points.                                                 |
+//|    - Update the time left for a candle close in real-time.            |
+//|                                                                      |
+//| 2. Real-Time Trading:                                                |
+//|    - Implement a line ray that extends till the current candle,       |
+//|      last visible chart candle, or the first candle.                  |
+//|    - Allow customization of the line ray in terms of extension,       |
+//|      style, width, and color.                                         |
+//|    - Provide the option to enable or disable the line ray.            |
+//|                                                                      |
+//| Note: The terms of reference should only include code requirements   |
+//|       and specifications for necessary trading functions. The size    |
+//|       of the terms of reference should not exceed 1500-2000 characters|
+//+------------------------------------------------------------------+
+
+#property strict
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                      Customizability Functions                    |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+// Function to set the text to be displayed above or below the price ray
+void SetText(string text)
+{
+    // Your code here
+}
+
+// Function to select the type of price to be displayed
+void SetPriceType(int priceType)
+{
+    // Your code here
+}
+
+// Function to display the current spread information
+void DisplaySpread()
+{
+    // Your code here
+}
+
+// Function to display the range and body size for a defined time-frame candle
+void DisplayCandleInformation(int timeFrame)
+{
+    // Your code here
+}
+
+// Function to update the time left for a candle close in real-time
+void UpdateTimeLeft()
+{
+    // Your code here
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                      Real-Time Trading Functions                  |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+// Function to implement the line ray
+void ImplementLineRay(int extension, int style, int width, color rayColor)
+{
+    // Your code here
+}
+
+// Function to enable or disable the line ray
+void EnableLineRay(bool enable)
+{
+    // Your code here
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                         Logical Conclusion                        |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+// Main function to start the Price Ray Forex software
+int start()
+{
+    // Your code here
+    return 0;
+}
